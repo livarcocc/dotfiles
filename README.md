@@ -1,3 +1,19 @@
+# Livar's additional tools
+
+https://github.com/junegunn/fzf#using-homebrew-or-linuxbrew
+http://www.irradiatedsoftware.com/sizeup/
+brew install tig
+
+https://github.com/msiemens/PyGitUp
+$ sudo pip3 install git-up
+
+https://git-fork.com/
+
+brew install ripgrep
+rg <search string>
+	
+brew install watch
+
 # Mathias’s dotfiles
 
 ![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
