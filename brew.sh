@@ -98,6 +98,10 @@ brew install tree
 brew install webkit2png
 brew install zopfli
 brew install exa
+brew install fzf
+
+# To install useful key bindings and fuzzy completion:
+$(brew --prefix)/opt/fzf/install
 
 # Remove outdated versions from the cellar.
 brew cleanup
