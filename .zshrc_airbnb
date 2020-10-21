@@ -89,6 +89,12 @@ alias th='cd ~/airlab/repos/treehouse'
 alias kk='POD=$(ENV=development k pods | tail -1) k'
 alias ls="exa"
 
+# Bindings
+## arrow up
+bindkey "\e[A" history-search-backward
+## arrow down
+bindkey "\e[B" history-search-forward
+
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 export PATH="$JAVA_HOME/bin:/usr/local/sbin:/usr/local/osquery/bin:/opt/airbnb/bin:/opt/puppetlabs/bin:/usr/local/munki:$PATH"
 export ENV=mir
