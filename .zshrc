@@ -81,6 +81,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Bindings
+## arrow up
+bindkey "\e[A" history-search-backward
+## arrow down
+bindkey "\e[B" history-search-forward
+
 export PATH="/Users/livarcocc/Documents/git/cli/artifacts/osx.10.11-x64/stage2:/usr/local/sbin:$PATH"
 
 fpath=(~/.zsh/completion $fpath)
